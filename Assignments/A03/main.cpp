@@ -43,10 +43,9 @@ struct Node {                    // creates a variable with the type struct node
  * List
  * 
  * Description:
- *      This class implements a compressions algorithm called Huffman Coding.
- *      Huffman coding assigns codes to characters such that the length of the 
- *      code depends on the relative frequency or weight of the corresponding 
- *      character. Huffman codes are of variable-length, and prefix-free
+ *      This class implements a list that inserts from the front,
+ *       allocates new memory , prints the tail
+ *     
  * 
  * Public Methods:
  *                                                       
@@ -62,19 +61,7 @@ struct Node {                    // creates a variable with the type struct node
  *     Node                 *Head
  *     Node                 *Tail
  *     int                  Size
- * 
- * Usage: 
- * 
- *      Huffman H(filename):                        // Create Instance of Huffman
- *                                                  // and build freq table. 
- *      H.GetCodes();                               // get map <char,string> of codes
- * 
- *                                                  // or
- *      
- *      Huffman H;                                  // do seperately
- *      H.BuildFrequencyTable(filename);            // or use to re-build another file
- *      H.LookupCode('s')                           // get code for 's' 
- *      
+ *
  */
 class List {
 private:
